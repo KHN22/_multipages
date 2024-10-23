@@ -121,12 +121,12 @@ const Animation = () => {
           )}
         </button>
         <div id="control">
-          <button className="btn btn-primary" onClick={() => changeImage('src/pages/Animation/Basketball.png')}>BASKETBALL</button>
-          <button className="btn btn-primary" onClick={() => changeImage('src/pages/Animation/Football.png')}>FOOTBALL</button>
-          <button className="btn btn-primary" onClick={() => changeImage('src/pages/Animation/Volleyball.jpg')}>VOLLEYBALL</button>
-          <button className="btn btn-primary" onClick={() => changeImage('src/pages/Animation/Human.jpg')}>HUMAN</button>
-          <button className="btn btn-primary" onClick={() => changeImage('src/pages/Animation/Cartoon.avif')}>CARTOON</button>
-          <button className="btn btn-primary" onClick={() => changeImage('src/pages/Animation/LOGO.jpg')}>LOGO</button>
+          <button className="btn btn-primary" onClick={() => changeImage('/_multipages/Basketball.png')}>BASKETBALL</button>
+          <button className="btn btn-primary" onClick={() => changeImage('/_multipages/Football.png')}>FOOTBALL</button>
+          <button className="btn btn-primary" onClick={() => changeImage('/_multipages/Volleyball.jpg')}>VOLLEYBALL</button>
+          <button className="btn btn-primary" onClick={() => changeImage('/_multipages/Human.jpg')}>HUMAN</button>
+          <button className="btn btn-primary" onClick={() => changeImage('/_multipages/Cartoon.avif')}>CARTOON</button>
+          <button className="btn btn-primary" onClick={() => changeImage('/_multipages/LOGO.jpg')}>LOGO</button>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const Home = () => {
       <div className="profile-container">
         <div className="profile-card">
           <div className="profile-image">
-            <img src="src/pages/Home/55744562_345284676113848_5105809378628337664_n.jpg" alt="Profile" />
+            <img src="/_multipages/55744562_345284676113848_5105809378628337664_n.jpg" alt="Profile" />
           </div>
           <div className="profile-details">
             <h2>Khing , Apiwit Saisan</h2>
