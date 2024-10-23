@@ -1,0 +1,73 @@
+/* login.css */
+body {
+    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); /* ไล่ระดับสีพื้นหลัง */
+    font-family: 'Arial', sans-serif; /* ฟอนต์ */
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9); /* พื้นหลังขาวโปร่งแสง */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* เงาที่เข้มขึ้น */
+    padding: 40px; /* เพิ่มพื้นที่ด้านใน */
+    max-width: 400px; /* ขนาดมินิมอล */
+    margin: auto; /* จัดกลาง */
+    transition: transform 0.3s ease; /* เอฟเฟกต์การขยาย */
+}
+
+.login-container:hover {
+    transform: scale(1.02); /* ขยายเมื่อชี้ */
+}
+
+.login-title {
+    font-size: 24px; /* ขนาดตัวอักษรหัวข้อ */
+    color: #2c3e50; /* สีตัวอักษร */
+    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4a4a4a; /* สีตัวอักษรที่ไม่แสบตา */
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 15px; /* ระยะห่างระหว่างฟอร์ม */
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* เอฟเฟกต์การเปลี่ยนสี */
+}
+
+.form-control:focus {
+    border-color: #76b5c5; /* สีที่ใช้เมื่อมีการโฟกัส */
+    box-shadow: 0 0 5px rgba(118, 181, 197, 0.5);
+}
+
+.login-button {
+    background-color: #007bff; /* สีปุ่ม */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* เอฟเฟกต์การเปลี่ยนสีและขยาย */
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* สีเมื่อมีการชี้ */
+    transform: translateY(-2px); /* เลื่อนขึ้นเล็กน้อยเมื่อชี้ */
+}
+
+.login-button:active {
+    transform: translateY(0); /* กลับสู่ตำแหน่งเมื่อคลิก */
+}
+
+  
+  
